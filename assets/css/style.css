@@ -103,7 +103,7 @@ body.page-template-page-fullsingle-me {
       rgba(0, 0, 0, 0) 0%,
       rgba(0, 0, 0, 1) 100%
     ),
-    url('../../images/hur_o.jpg');
+    url('../../images/Background.jpg');
 
   background-position: center center;
   background-size: cover;
@@ -252,4 +252,15 @@ body.page-template-page-fullsingle-me h1 {
   fill: var(--secondary-color);
   -webkit-transition: 0.1s;
   transition: 0.1s;
+}
+h1{
+  color: rgb(184, 134, 11);
+  /* background-color: rgb(255, 228, 196) */
+}
+a{
+color: rgb(255, 228, 196)
+}
+/*ein Link über den man drüber fährt*/
+a:hover{
+  color:rgb(159, 138, 188)
 }
